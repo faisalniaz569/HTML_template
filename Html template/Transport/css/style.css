@@ -5,10 +5,7 @@
     box-sizing: border-box;
 }
 
-ul,
-ol {
-    list-style-type: none;
-}
+ul, ol { list-style-type: none; }
 
 /*===== FontFamily for all pages =====*/
 @font-face {
@@ -41,9 +38,7 @@ p {
     margin: auto;
 }
 
-.row {
-    overflow: auto;
-}
+.row { overflow: auto; }
 
 /*===== 2 Columns layout =====*/
 .maintextarea .col-50, .transportnews .column,
@@ -168,9 +163,7 @@ button {
     -o-transform: skew(20deg);
 }
 
-.Left_skewdropdownmenu li.first {
-    margin-left: 10px;
-}
+.Left_skewdropdownmenu li.first { margin-left: 10px; }
 
 .first:before {
     content: "";
@@ -308,9 +301,7 @@ button {
 
 /*=== Top social icons ===*/
 
-.topsocialicons {
-    float: right;
-}
+.topsocialicons { float: right; }
 
 .topsocialicons .fab {
     color: darkgray;
