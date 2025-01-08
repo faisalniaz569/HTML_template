@@ -146,7 +146,7 @@ button {
 .Left_skewdropdownmenu {
     width: 100%;
     height: 50px;
-    background-color: #90BE6D;
+    background-color: #865036;
     position: relative;
     font-family: mySecondFont;
     z-index: 2;
@@ -192,7 +192,7 @@ button {
 
 .dropdown-content {
     display: none;
-    background-color: #90BE6D;
+    background-color: #865036;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -229,7 +229,7 @@ button {
 
 .Left_skewdropdownmenu li a, .dropbtn {
     display: block;
-    color: white;
+    color: burlywood;
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -293,8 +293,8 @@ button {
 
 /*=== HEAD ===*/
 #head {
-    background-color: #C9E3AC;
-    color: #3a3c2a;
+    background-color: #deccaa;
+    color: #553f14;
     height: auto;
     text-align: center;
     padding: 50px;
@@ -302,7 +302,7 @@ button {
 
 .headtop {
     height: 50px;
-    background-color: #212738;
+    background-color: #140c0d;
 }
 
 
@@ -462,11 +462,11 @@ button {
     left: 0;
     width: 100px;
     height: 50%;
-    background-color: #219EBC;
+    background-color: #667292;
 }
 
 .iconblock i {
-    color: #021781;
+    color: #bccad6;
     padding: 35px;
     font-size: 30px;
     text-align: center;
@@ -483,8 +483,15 @@ button {
 }
 
 .btn1 {
-    background-color: #FF9F41;
-    color: #8a0c26;
+    background-color: #FBA90A;
+    color: #342609;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.btn3 {
+    background-color: cadetblue;
+    color: white;
     margin: 5px 0;
     font-weight: 600;
 }
@@ -564,7 +571,7 @@ textarea {
 .btn2 {
     width: 100%;
     background-color: #102d06;
-    color: #d2c3d9;
+    color: white;
     font-weight: 600;
     border-radius: 4px;
     text-transform: capitalize;
@@ -715,8 +722,8 @@ textarea {
 /*===  transportdetails section ===*/
 
 .transportdetails {
-    background-color: #66C3F4;
-    color: #061218;
+    background-color: #bccad6;
+    color: #166780;
 }
 
 .aboutus, .information, .transportoffice {
@@ -728,10 +735,8 @@ textarea {
     overflow: hidden;
 }
 
-.foot_title1,
-.foot_title2,
-.foot_title3 {
-    background-color: #1E7085;
+.foot_title1, .foot_title2, .foot_title3 {
+    background-color: #667292;
     width: 150px;
     height: 50px;
     padding: 5px 15px;
@@ -739,7 +744,7 @@ textarea {
 }
 
 .foot_title1 h2, .foot_title2 h2, .foot_title3 h2 {
-    color: #defbfb;
+    color: #d1d5de;
     text-align: left;
 }
 
@@ -763,9 +768,8 @@ textarea {
     left: 200px;
 }
 
-.foot_title1 svg polygon, .foot_title2 svg polygon,
-.foot_title3 svg polygon {
-    fill: #1E7085;
+.foot_title1 svg polygon, .foot_title2 svg polygon, .foot_title3 svg polygon {
+    fill: #667292;
     stroke: transparent;
 }
 
@@ -782,7 +786,7 @@ textarea {
 }
 
 .transportdetails span i:hover {
-    color: #defbfb;
+    color: darkorange;
     font-weight: bold;
     cursor: pointer;
     transform: rotate(360deg);
@@ -798,7 +802,7 @@ textarea {
 .footerinfolistone > ul > li,
 .footerinfolisttwo > ul > li {
     display: block;
-    color: #061218;
+    color: #166780;
     text-align: left;
     padding-bottom: 10px;
     text-decoration: none;
@@ -942,8 +946,8 @@ textarea {
 }
 
 .servicesareaanimation {
-    background: linear-gradient(to right, #d3edf8 30%, #a7dbf1 70%);
-    color: #195f85;
+    background: linear-gradient(to right, #cfe0e8 30%, #b7d7e8 70%);
+    color: #193299;
     height: 540px;
     padding: 30px 0;
     position: relative;
@@ -1077,9 +1081,8 @@ p.new10 {
     left: 1080px;
 }
 
-
 .servicetextarea {
-    background-color: #d3edf8;
+    background-color: #b7d7e8;
     padding: 50px 0;
 }
 
@@ -1197,8 +1200,8 @@ p.new10 {
 }
 
 .missionlist, .logisticserviceoverview {
-    background-color: #d3edf8;
-    color: #011219;
+    background-color: #b7d7e8;
+    color: #26312f;
     padding: 30px 0;
 }
 
@@ -1341,13 +1344,13 @@ q {
 /* Meettheteam */
 
 .meettheteam {
-    background-color: #d3edf8;
+    background-color: #b7d7e8;
     padding: 30px 0;
 }
 
 .card {
     height: 435px;
-    color: #13072e;
+    color: #26312f;
     -webkit-box-shadow: 0 8px 8px 0 rgba(0,60,79,8);
     box-shadow: 0 8px 8px 0 rgba(0,60,79,8);
     background-color: rgba(0, 60, 179, 0.2);
@@ -1414,7 +1417,7 @@ q {
 }
 
 .blog_post2 .iconblock span.month, .blog_post2 .iconblock span.year {
-    color: #a8e1f0;
+    color: #bccad6;
 }
 
 .blogpostimgone .dates span.date, .blog_post2 .center .date {
@@ -1566,9 +1569,9 @@ q {
 .warehouseserviceone .wrapper { padding: 30px 10px 30px; }
 
 .warehouseborderdecoration {
-    padding: 30px 0; 
-    background-color: #a0f0b4;
-    color: #113c4b;
+    padding: 30px 0;
+    background-color: #806a00;
+    color: #ffc86e;
 }
 
 .warehouseborderdecoration .borderimg {
@@ -1726,8 +1729,8 @@ input[type=text], select, textarea {
 
 /*===  Footer ===*/
 .footer {
-    background-color: #0fa3b1;
-    color: #061218;
+    background-color: #8d9db6;
+    color: white;
     font-family: mySecondFont;
     height: 50px;
     line-height: 50px;
